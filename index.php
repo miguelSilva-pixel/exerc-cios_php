@@ -6,6 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Olá, mundo</h1>
+    <?php
+    
+    $nota = 4;
+    if ($nota >= 7) {
+        echo 'O aluno foi aprovado';
+    } else {
+        echo 'O aluno foi reprovado';
+    }
+
+    ?>
 </body>
 </html>
